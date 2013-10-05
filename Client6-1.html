@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
+  
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/x-editable/1.4.6/jquery-editable/css/jquery-editable.css" rel="stylesheet"/>
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Caly Profile</title>
+</head>
+<body>
+
+  <heading>
+	<h1>Caly Profile</h1>
+  </heading>
+  <button class="btn btn-lg btn-primary btn-block calybutton" type="submit">Show Form</button>
+  <!-- <button class="btn btn-lg btn-primary btn-block hideform" type="submit">Hide Form</button> -->
+    <div class = "container">
+      <form class="form-signin profiledata">
+          <h2 class="form-signin-heading">Please add your profile info:</h2>
+          <input id = "name" type="text" class="form-control" placeholder="Name" autofocus> <br>
+          <input id = "bio" type="text" class="form-control" placeholder="Bio" autofocus> <br>
+          <input id = "books" type="text" class="form-control" placeholder="Favorite books" autofocus><br>
+          <input id = "libraries" type="text" class="form-control" placeholder="Favorite Javascript libraries" autofocus><br>
+          
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Submit Profile</button>
+      </form>
+
+    </div> <!-- /container -->
+    <div class = "container displayprofile">
+    </div>
+
+  
+
+<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/x-editable/1.4.6/jquery-editable/js/jquery-editable-poshytip.min.js"></script>
+
+<script src="utility.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
+
+
